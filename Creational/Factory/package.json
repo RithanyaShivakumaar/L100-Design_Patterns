@@ -1,0 +1,26 @@
+{
+  "name": "factory-pattern-attendance-system-ts",
+  "version": "1.0.0",
+  "description": "A factory pattern demonstration using an attendance management system in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "design-patterns",
+    "factory-pattern",
+    "attendance-system",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0",
+    "rimraf": "^5.0.0"
+  }
+}
